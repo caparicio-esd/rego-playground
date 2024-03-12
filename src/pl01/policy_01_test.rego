@@ -1,8 +1,8 @@
-package policy_01_test
+package pl01_test
 
 import rego.v1
 
-import data.policy_01
+import data.pl01
 
 test_car_read_positive if {
 	inp = {
@@ -10,7 +10,7 @@ test_car_read_positive if {
 		"path": ["cars"],
 		"user": "alice",
 	}
-	policy_01.allow with input as inp
+	pl01.allow with input as inp
 }
 
 test_car_read_negative if {
@@ -19,5 +19,5 @@ test_car_read_negative if {
 		"path": ["nonexistent"],
 		"user": "carlos",
 	}
-	not policy_01.allow with input as inp
+	not pl01.allow with input as inp
 }

@@ -1,4 +1,4 @@
-package policy_01
+package pl01
 
 import rego.v1
 
