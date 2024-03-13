@@ -1,0 +1,4 @@
+{
+  "opa.bundleMode": true,
+  "opa.roots": ["${fileDirname}"]
+}
