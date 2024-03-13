@@ -1,0 +1,21 @@
+{
+  "admins": [
+      "alice",
+      "bob",
+      "charlie"
+  ],
+  "admins2": [
+      {
+          "user": "alice",
+          "level": 1
+      },
+      {
+          "user": "bob",
+          "level": 1
+      },
+      {
+          "user": "charlie",
+          "level": 2
+      }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "user": "alice",
+  "groups": ["engineering", "operations"]
+}
